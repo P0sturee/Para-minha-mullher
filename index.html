@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EU TE AMO SOPHIZINHA</title>
+
+<style>
+    body{
+              background-color: red;
+         }
+
+    .painel{
+     margin:auto;
+     background-color: white;
+     width: 500px;
+     height: 900px;
+     border-radius: 20px;
+     text-align: center;
+     padding-top: 50px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     </style>
+
+</head>
+<body>
+    
+ <div class="painel">
+   <h1> EU TE AMO MUITO SOPHIZINHA</h1>
+   <h2> Promete nunca enjoar de mim e me amar pra sempre?</h2>
+
+   <button>
+    <a href="https://vm.tiktok.com/ZMMXNAg2k/">SIM</a>
+   </button>
+   
+   <button mouseover=" fuja()" id="no">
+    <a href="https://i.pinimg.com/originals/f0/61/c1/f061c18854fe28120ed76c9e03002937.gif">NÃO</a>
+   </button>
+
+   <img src="https://i.pinimg.com/originals/fa/58/b8/fa58b87e9d904c2abd828f940658eafa.gif" alt="">
+ 
+ 
+  </div>
+
+
+
+</body>
+<script>
+  let button = document.getElementById('no');
+  let height = window.innerHeight - 50;
+  let width = window.innerWidth - 50;
+
+  button.addEventListener('mouseover', function () {
+      button.style.position = "absolute";
+      button.style.top = Match.random() * height + "px";
+      button.style.left = Match.random() * width + "px";
+  })
+</script>
+</html>
